@@ -1,0 +1,25 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #333;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    flex: 1px;
+    min-width: 100px;
+    max-width: 200px;
+    text-align: center;
+    border: 1px solid #007bff;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,1);
+}
